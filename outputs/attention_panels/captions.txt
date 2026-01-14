@@ -1,0 +1,47 @@
+TOP | 1684
+Dice (U-Net)=0.9438, Dice (AttU-Net)=0.9641, Δ=0.0203
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+TOP | 1015
+Dice (U-Net)=0.9591, Dice (AttU-Net)=0.9710, Δ=0.0119
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+TOP | 1014
+Dice (U-Net)=0.9473, Dice (AttU-Net)=0.9576, Δ=0.0103
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+TOP | 1642
+Dice (U-Net)=0.9688, Dice (AttU-Net)=0.9789, Δ=0.0101
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+TOP | 1412
+Dice (U-Net)=0.9337, Dice (AttU-Net)=0.9437, Δ=0.0100
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+TOP | 1215
+Dice (U-Net)=0.8851, Dice (AttU-Net)=0.8951, Δ=0.0100
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+BOTTOM | 1211
+Dice (U-Net)=0.9555, Dice (AttU-Net)=0.9494, Δ=-0.0062
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+BOTTOM | 1679
+Dice (U-Net)=0.8942, Dice (AttU-Net)=0.8877, Δ=-0.0064
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+BOTTOM | 1396
+Dice (U-Net)=0.9710, Dice (AttU-Net)=0.9641, Δ=-0.0069
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+BOTTOM | 1393
+Dice (U-Net)=0.9539, Dice (AttU-Net)=0.9460, Δ=-0.0079
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+BOTTOM | 1479
+Dice (U-Net)=0.9014, Dice (AttU-Net)=0.8931, Δ=-0.0083
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).
+
+BOTTOM | 1410
+Dice (U-Net)=0.9012, Dice (AttU-Net)=0.8889, Δ=-0.0122
+Notes: Inspect attention hotspots near thin/ambiguous boundaries (apices, costophrenic angles). For failure cases, check non-lung distractors (cardiac shadow, diaphragm edges, rib artifacts).

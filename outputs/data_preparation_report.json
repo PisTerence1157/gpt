@@ -1,0 +1,19 @@
+{
+  "dataset_summary": {
+    "total_samples": 704,
+    "train_samples": 246,
+    "val_samples": 246,
+    "test_samples": 212,
+    "avg_positive_ratio": 0.2532024380029175,
+    "avg_image_size": {
+      "width": 3011,
+      "height": 3156
+    }
+  },
+  "quality_checks": {
+    "empty_masks": 0,
+    "large_images": 693,
+    "small_images": 0,
+    "duplicate_names": 0
+  }
+}

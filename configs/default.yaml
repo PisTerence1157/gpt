@@ -1,0 +1,66 @@
+# Default configuration for Chest X-Ray Segmentation
+
+# Data paths
+data:
+  image_dir: "/Users/t/Documents/DISSERTATION/Chest-X-Ray/image"
+  mask_dir: "/Users/t/Documents/DISSERTATION/Chest-X-Ray/mask"
+  metadata_path: "/Users/t/Documents/DISSERTATION/data/metadata.csv"
+  split_path: "/Users/t/Documents/DISSERTATION/data/split.csv"
+
+# Dataset settings
+dataset:
+  image_size: [512, 512]
+  normalize: true
+  mean: [0.485]
+  std: [0.229]
+
+# Data split ratios
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+  random_seed: 42
+
+# Training parameters
+training:
+  batch_size: 8
+  num_epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: "adam"
+  
+# Early stopping
+early_stopping:
+  patience: 10
+  min_delta: 0.001
+  monitor: "val_dice"
+  mode: "max"
+
+# Loss function
+loss:
+  type: "dice_bce"
+  dice_weight: 0.7
+  bce_weight: 0.3
+
+# Metrics to track
+metrics:
+  - "dice"
+  - "iou"
+  - "precision"
+  - "recall"
+  - "accuracy"
+
+# Logging
+logging:
+  log_dir: "outputs/logs"
+  save_dir: "checkpoints"
+  log_interval: 10
+  
+# Visualization
+visualization:
+  output_dir: "outputs/visualizations"
+  num_samples: 10
+
+# Device settings
+device: "cuda" # Will fallback to cpu if cuda not available
+num_workers: 4
